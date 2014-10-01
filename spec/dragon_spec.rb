@@ -1,7 +1,7 @@
-require_relative '../person.rb'
+require_relative '../dragon.rb'
 require 'rspec'
 
-describe Person do
+describe Dragon do
 
   it 'says something' do
     expect('hello').to eq 'hello'
